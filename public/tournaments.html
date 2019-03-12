@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tournaments</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./styles/index.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container" id="banner"></div>
+    </header>
+
+    <div id="title">Current Tournament</div>
+
+    <div class="container">
+        <div id="header">IEM Katowice</div>
+        <div id="headerText">Last Champions</div>
+
+
+        <div id="lastChamps"></div>
+
+        <p class="dates">IEM Katowice Dates:</p>
+        <p class="dateHeader">Thursday</p>
+        <p class="times">01:30pm - EARLY ENTRANCE</p>
+        <p class="times">03:30pm - REGULAR ENTRANCE</p>
+        <p class="times">04:00pm - Quarter FINAL #1</p>
+        <p class="times">07:50pm - Quarter FINAL #2</p>
+
+        <div class="dateHeader" id="space">Friday</div>
+        <p class="times">01:30pm - EARLY ENTRANCE</p>
+        <p class="times">03:30pm - REGULAR ENTRANCE</p>
+        <p class="times">04:00pm - Quarter FINAL #3</p>
+        <p class="times">07:50pm - Quarter FINAL #4</p>
+
+        <div class="dateHeader" id="space">Saturday</div>
+        <p class="times">01:30pm - EARLY ENTRANCE</p>
+        <p class="times">03:30pm - REGULAR ENTRANCE</p>
+        <p class="times">04:00pm - Semi FINAL #1</p>
+        <p class="times">07:50pm - Semi FINAL #2</p>
+
+        <div class="dateHeader" id="space">Sunday</div>
+        <p class="times">01:30pm - EARLY ENTRANCE</p>
+        <p class="times">03:30pm - REGULAR ENTRANCE</p>
+        <p class="times">07:50pm - GRAND FINAL #4</p>
+
+        <p class="dates">Location:</p>
+        <div id="map">
+            <iframe class="last" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5772.022930659371!2d19.025703323948427!3d50.26512020300406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSpodek%2C+al.+Korfantego+35%2C+40-005+Katowice%2C+Polonya!5e0!3m2!1str!2ses!4v1551196393935" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <footer>
+
+        <nav class="navbar fixed-bottom navbar-light bg-light">
+            <a href="index.html"><i class="fas fa-home"></i>Home</a>
+            <a href=""><i class="fas fa-biohazard"></i>Tournaments</a>
+            <a href="teams.html"><i class="far fa-handshake"></i>Teams</a>
+            
+        </nav>
+
+    </footer>
+
+
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+</body>
+
+</html>
